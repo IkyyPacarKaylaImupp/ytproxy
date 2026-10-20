@@ -1,0 +1,16 @@
+{
+  "name": "vercel-yt-proxy-cdn",
+  "version": "1.0.0",
+  "description": "YouTube Proxy & File CDN via Vercel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1"
+  }
+}
